@@ -15,6 +15,7 @@
         rel="stylesheet">
     <title>Clemar</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -58,7 +59,7 @@
                     </div>
                 </li>
             </ul>
-            
+
         </div>
     </header>
     <div class="slider">
@@ -110,31 +111,31 @@
                 </a>
             </div>
             <ul class="page__list">
-                <li class="page__item">
+                <li class="page__item" data-aos="flip-left" data-aos-duration="1500">
                     <img src="./image/wrap__photo1.png" alt="photo" class="page__img">
                     <p class="page__subtext">
                         Бумажная продукция
                     </p>
                 </li>
-                <li class="page__item">
+                <li class="page__item"  data-aos="flip-left" data-aos-duration="1500">
                     <img src="./image/wrap_photo2.png" alt="photo" class="page__img">
                     <p class="page__subtext">
                         Моющие средства
                     </p>
                 </li>
-                <li class="page__item">
+                <li class="page__item"  data-aos="flip-left" data-aos-duration="1500">
                     <img src="./image/wrap_photo3.png" alt="photo" class="page__img">
                     <p class="page__subtext">
                         Поломоечные машины
                     </p>
                 </li>
-                <li class="page__item">
+                <li class="page__item"  data-aos="flip-left" data-aos-duration="1500">
                     <img src="./image/wrap_photo4.png" alt="photo" class="page__img">
                     <p class="page__subtext">
                         Пылесосы
                     </p>
                 </li>
-                <li class="page__item">
+                <li class="page__item"  data-aos="flip-left" data-aos-duration="1500">
                     <img src="./image/wrap_photo5.png" alt="photo" class="page__img">
                     <p class="page__subtext">
                         Уборочные инвентарь
@@ -157,7 +158,7 @@
                 </a>
             </div>
             <ul class="wrapper__list">
-                <li class="wrapper__item">
+                <li class="wrapper__item" data-aos="zoom-in" data-aos-duration="1500">
                     <img src="./image/50B.png" alt="photo" class="wrapper__img">
                     <h3 class="wrapper__subtitle">
                         T55/50B
@@ -169,7 +170,7 @@
                         Подробнее
                     </a>
                 </li>
-                <li class="wrapper__item">
+                <li class="wrapper__item" data-aos="zoom-in" data-aos-duration="1500">
                     <img src="./image/page_photo2.png" alt="photo" class="wrapper__img">
                     <h3 class="wrapper__subtitle">
                         T35B
@@ -181,7 +182,7 @@
                         Подробнее
                     </a>
                 </li>
-                <li class="wrapper__item">
+                <li class="wrapper__item" data-aos="zoom-in" data-aos-duration="1500">
                     <img src="./image/page_photo3.png" alt="photo" class="wrapper__img">
                     <h3 class="wrapper__subtitle">
                         T55/50BТ
@@ -193,7 +194,7 @@
                         Подробнее
                     </a>
                 </li>
-                <li class="wrapper__item">
+                <li class="wrapper__item" data-aos="zoom-in" data-aos-duration="1500">
                     <img src="./image/page_photo4.png" alt="photo" class="wrapper__img">
                     <h3 class="wrapper__subtitle">
                         T45/50B
@@ -230,7 +231,7 @@
                 </a>
             </div>
             <ul class="aside__list">
-                <li class="aside__item">
+                <li class="aside__item" data-aos="zoom-in" data-aos-duration="1500">
                     <img src="./image/wrapper_photo.png" alt="photo" class="aside__img">
                     <h3 class="aside__subtitle">
                         Selpak Professional Extra Z-
@@ -244,7 +245,7 @@
                         Подробнее
                     </a>
                 </li>
-                <li class="aside__item">
+                <li class="aside__item" data-aos="zoom-in" data-aos-duration="1500">
                     <img src="./image/wrapper_photo2.png" alt="photo" class="aside__img">
                     <h3 class="aside__subtitle">
                         Sens Туалетная бумага 24 шт.
@@ -256,7 +257,7 @@
                         Подробнее
                     </a>
                 </li>
-                <li class="aside__item">
+                <li class="aside__item" data-aos="zoom-in" data-aos-duration="1500">
                     <img src="./image/wrapper_photo3.png" alt="photo" class="aside__img">
                     <h3 class="aside__subtitle">
                         Solo Professional 1/6 Складные
@@ -270,7 +271,7 @@
                         Подробнее
                     </a>
                 </li>
-                <li class="aside__item">
+                <li class="aside__item" data-aos="zoom-in" data-aos-duration="1500">
                     <img src="./image/wrapper_photo4.png" alt="photo" class="aside__img">
                     <h3 class="aside__subtitle">
                         Selpak Professional Extra
@@ -596,6 +597,11 @@
                 goToSlide(currentSlide);
             }, 5000);
         });
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 
